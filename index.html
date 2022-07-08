@@ -1,0 +1,2002 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Tantelinirina Rasoloniaina</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" class="rounded-circle" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" class="rounded-circle" rel="apple-touch-icon">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" media="screen" href="Part/css/style1.css">
+
+    <style>
+        .butt1 {
+            display: inline-block;
+            background-color: #181818;
+            border-radius: 5px;
+            border: 3px;
+            color: #eeeeee;
+            box-shadow: 0px 3px 4px 0px rgb(0 0 0 / 50%);
+            text-align: center;
+            font-size: 17px;
+            padding: 11px;
+            width: 200px;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            margin-right: 25px;
+            line-height: 17px;
+            font-weight: 600;
+            padding-bottom: 17px;
+        }
+
+        .butt1 span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .butt1 span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+            padding-bottom: 20px;
+        }
+
+        .butt1:hover {
+            background-color: rgb(90, 96, 99);
+            font-size: 18px;
+            display: inline-block;
+            border-radius: 3px;
+            border: 4px;
+            color: #eeeeee;
+            text-align: center;
+            padding: 11px;
+            width: 200px;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            margin-right: 25px;
+            line-height: 17px;
+            font-weight: 600;
+            padding-bottom: 17px;
+        }
+
+        .butt1:hover span {
+            padding-right: 25px;
+            padding-bottom: 20px;
+        }
+
+        .butt1:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        .dip {
+            font-family: Arial, sans-serif;
+            border: 2px solid #0086c8;
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: 600;
+            padding-top: 5px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-bottom: 5px;
+            /*margin-left: 30px;*/
+            color: #0086c8;
+        }
+
+        .dip:hover {
+            font-family: Arial, sans-serif;
+            border: 2px solid #0086c8;
+            background-color: #0086c8;
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: 600;
+            padding-top: 5px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-bottom: 5px;
+            /*margin-left: 30px;*/
+            color: #eeeeee;
+        }
+
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: url('assets/img/intro-bg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        #particles1-js {
+            position: absolute;
+            width: 100%;
+            height: 62.7%;
+            background-image: url('assets/img/intro-bg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        #particles2-js {
+            position: absolute;
+            width: 100%;
+            height: 93%;
+            background-image: url('assets/img/intro-bg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        .layer1 {
+            background-color: rgba(0, 0, 0, 0.507);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .layer3 {
+            background-color: rgba(0, 0, 0, 0.514);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .layer2 {
+            background-color: rgba(0, 0, 0, 0.514);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: .9;
+        }
+
+        .dl-horizontal dt {
+            float: left;
+            width: 200px;
+            overflow: hidden;
+            clear: left;
+            text-align: right;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .dl-horizontal dd {
+            margin-left: 220px;
+        }
+
+        .dl1-horizontal dt {
+            float: left;
+            width: 60px;
+            overflow: hidden;
+            clear: left;
+            text-align: right;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            padding-top: 10px;
+        }
+
+        .dl1-horizontal dd {
+            margin-left: 70px;
+            margin-right: 5px;
+            padding-bottom: 10px;
+        }
+
+
+        /* RESPONSIVE PARTICLE 1 */
+
+
+        @media (max-width: 379px) {
+            .layer1 {
+                background-color: rgba(0, 0, 0, 0.507);
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-position: center center;
+                background-size: cover;
+            }
+
+            #particles1-js {
+                position: absolute;
+                width: 100%;
+                height: 132%;
+                background-image: url('assets/img/intro-bg.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center center;
+                background-size: cover;
+            }
+        }
+
+        @media (min-width: 380px) and (max-width: 420px) {
+            .layer1 {
+                background-color: rgba(0, 0, 0, 0.507);
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-position: center center;
+                background-size: cover;
+            }
+
+            #particles1-js {
+                position: absolute;
+                width: 100%;
+                height: 103%;
+                background-image: url('assets/img/intro-bg.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center center;
+                background-size: cover;
+            }
+        }
+
+        @media (min-width: 421px) and (max-width: 575px) {
+            .layer1 {
+                background-color: rgba(0, 0, 0, 0.507);
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-position: center center;
+                background-size: cover;
+            }
+
+            #particles1-js {
+                position: absolute;
+                width: 100%;
+                height: 111%;
+                background-image: url('assets/img/intro-bg.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center center;
+                background-size: cover;
+            }
+        }
+
+        @media (min-width: 576px) and (max-width: 767px) {
+            .layer1 {
+                background-color: rgba(0, 0, 0, 0.507);
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-position: center center;
+                background-size: cover;
+            }
+
+            #particles1-js {
+                position: absolute;
+                width: 100%;
+                height: 72.5%;
+                background-image: url('assets/img/intro-bg.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center center;
+                background-size: cover;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 915px) {
+            .layer1 {
+                background-color: rgba(0, 0, 0, 0.507);
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-position: center center;
+                background-size: cover;
+            }
+
+            #particles1-js {
+                position: absolute;
+                width: 100%;
+                height: 42%;
+                background-image: url('assets/img/intro-bg.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center center;
+                background-size: cover;
+            }
+        }
+
+        @media (min-width: 1300px) and (max-width: 1500px) {
+            .layer1 {
+                background-color: rgba(0, 0, 0, 0.507);
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-position: center center;
+                background-size: cover;
+            }
+
+            #particles1-js {
+                position: absolute;
+                width: 100%;
+                height: 59.2%;
+                background-image: url('assets/img/intro-bg.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center center;
+                background-size: cover;
+            }
+        }
+
+
+
+
+
+        @media (min-width: 1501px) {
+            .layer1 {
+                background-color: rgba(0, 0, 0, 0.507);
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-position: center center;
+                background-size: cover;
+            }
+
+            #particles1-js {
+                position: absolute;
+                width: 100%;
+                height: 55%;
+                background-image: url('assets/img/intro-bg.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center center;
+                background-size: cover;
+            }
+        }
+
+
+
+        @media only screen and (max-width: 500px) {
+            .dl-horizontal dt {
+                float: left;
+                width: 180px;
+                overflow: hidden;
+                clear: left;
+                text-align: left;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                font-size: 5px
+            }
+
+            .dl-horizontal dd {
+                margin-left: 40px;
+                width: 200px
+            }
+        }
+
+        @media only screen and (max-width: 280px) {
+            .dl-horizontal dt {
+                float: left;
+                width: 180px;
+                overflow: hidden;
+                clear: left;
+                text-align: left;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .dl-horizontal dd {
+                margin-left: 2px;
+                width: 200px
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+            #ttl {
+                padding-right: 19px;
+                padding-left: 10px;
+                margin-right: 18px;
+            }
+
+        }
+
+        @media screen and (max-width: 668px) {
+            .ttly {
+                display: none;
+            }
+        }
+
+        /* @media screen and (min-width: 992px) {
+                    .ttly{
+                         display: block;
+                    }
+                } */
+    </style>
+
+
+
+    <!-- =======================================================
+  * Template Name: tantelyrasoloniaina - v2.4.1
+  * Template URL: https://tantelyras.ml/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body id="page-top">
+
+    <!-- ======= Header/ Navbar ======= -->
+    <nav class="navbar navbar-b navbar-trans navbar-expand-lg fixed-top" id="mainNav" style="min-width:460px;">
+        <div class="container">
+            <span class="ttly"><a class="navbar-brand js-scroll " id="fadet" href="index.html"><img
+                        class="rounded-circle" data-aos="fade-right" src="assets/img/ttlicon.png" rel="icon" height="35"
+                        width="35"> Tantelinirina Rasoloniaina</a></span>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+                aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span style="background-color: #fff"></span>
+                <span style="background-color: #fff"></span>
+                <span style="background-color: #fff"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#about">
+                            <nobr>About</nobr>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#work">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#autre">Others</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#service">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#contact">Contact</a>
+                    </li>
+            </div>
+            <span id="langues1">
+                <div class="dropdown" id="selector">
+                    <button class="dropbtn" onclick="showmenu()">
+                        <span id="langue1">
+                            <img class="rounded-circle" src="assets/img/flag-us.png" rel="icon" height="25"
+                                width="25" />
+                            &nbsp;EN
+                        </span>
+                    </button>
+                    <div class="dropdown-content" style="font-size: 14px; ">
+                        <a href="index-fr.html"><img class="rounded-circle" src="assets/img/flag-fr.png" rel="icon"
+                                height="28" width="28" /> &nbsp;FR</a>
+                        <a href="https://tantelyras.ml"><img src="assets/img/flag-us.png" rel="icon" height="25" width="25" />
+                            &nbsp;EN</a>
+                    </div>
+                </div>
+            </span>
+        </div>
+        <span id="langues">
+            <div class="dropdown" id="selector">
+                <button class="dropbtn" onclick="showmenu()">
+                    <span id="langue1">
+                        <img class="rounded-circle" src="assets/img/flag-us.png" rel="icon" height="25" width="25" />
+                        &nbsp;EN
+                    </span>
+                </button>
+                <div class="dropdown-content" style="font-size: 14px; ">
+                    <a href="index-fr.html"><img class="rounded-circle" src="assets/img/flag-fr.png" rel="icon"
+                            height="28" width="28" /> &nbsp;FR</a>
+                    <a href="https://tantelyras.ml"><img src="assets/img/flag-us.png" rel="icon" height="25" width="25" />
+                        &nbsp;EN</a>
+                </div>
+            </div>
+        </span>
+
+        <style>
+            .dropbtn {
+                background-color: #bdb9b977;
+                color: white;
+                padding: 5px;
+                font-size: 12px;
+                border: none;
+                cursor: pointer;
+                font-weight: 600;
+                box-shadow: 0px 8px 16px 0px rgba(172, 172, 172, 0.2);
+                padding-right: 15px;
+                padding-left: 15px;
+                border-radius: 30px;
+            }
+
+            .dropbtn::after {
+                content: "";
+                width: 0;
+                height: 0;
+                position: relative;
+                border-left: 5px solid transparent;
+                border-right: 5px solid transparent;
+                border-top: 5px solid #fff;
+                top: 11px;
+                left: 3px;
+            }
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #eeeeee;
+                min-width: 87px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 5px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .dropdown-content a img {
+                height: 19px;
+                width: 19px;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #0086c8;
+                color: #eeeeee;
+                border-radius: 50px;
+                padding-left: 10px;
+                margin-left: 2px;
+                margin-top: 3px;
+                margin-right: 2px;
+                margin-bottom: 3px;
+                font-weight: 600;
+                box-shadow: 0px 8px 16px 1px rgba(0, 0, 0, 0.3);
+
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .dropdown:hover .dropbtn {
+                background-color: #bdb9b977;
+                padding-right: 15px;
+                padding-left: 15px;
+
+            }
+
+            @media screen and (max-width: 839px) {
+                #langues {
+                    display: none;
+                }
+            }
+
+            @media screen and (min-width: 838px) {
+                #langues1 {
+                    display: none;
+                }
+            }
+        </style>
+
+    </nav>
+    <!-- ======= Intro Section ======= -->
+
+    <div id="particles-js">
+        <div class="layer2">
+        </div>
+    </div>
+    <div id="home" class="intro route bg-image">
+        <div class="overlay-itro"></div>
+        <div class="intro-content display-table">
+            <div class="table-cell">
+                <div class="container">
+                    <!--<p class="display-6 color-d">Hello, world!</p>-->
+                    <h1 class="intro-title mb-4" style="font-size:3.2em">Tantelinirina RASOLONIAINA</h1>
+                    <p class="intro-subtitle" style="font-size:1.9em">I am a <span class="text-slider-items">
+                            Network and Systems Engineer,Web Designer and Developer,QA Software Tester</span><strong
+                            class="text-slider "></strong></p>
+                    <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+                </div>
+                &nbsp;
+                <div class="socials text-center" data-aos="fade-left">
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100006639226760"><span
+                                    class="ico-circle"><i class="ion-social-facebook ion2"></i></span></a></li>
+                        <li><a href="https://www.instagram.com/tantelyrasoloniaina"><span class="ico-circle"><i
+                                        class="ion-social-instagram ion2"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/tantelinirina-rasoloniaina-711a7720a"><span
+                                    class="ico-circle"><i class="ion-social-linkedin ion2"></i></span></a></li>
+                        <li><a href="https://join.skype.com/invite/wb80QVItvK1x"><span class="ico-circle"><i
+                                        class="ion-social-skype ion2"></i></span></a></li>
+                    </ul>
+                </div>
+                <div class="text-center">
+                    <div data-aos="fade-right">
+                        <a type=""
+                            href="index.html#contact">
+                            <div class="butt1">Contact me</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Intro Section -->
+    <main id="main">
+        <!-- ======= About Section ======= -->
+        <div id="about" class="container skills">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-shadow-full">
+                        <div class="row">
+                            <div class="title-box-2">
+                                <h5 class="title-left" data-aos="fade-in">
+                                    About
+                                </h5>
+                            </div>
+                            <p class="lead" data-aos="fade-up" style="padding-right:15px;padding-left:10px; ">
+                                Systems and network engineer with mastery of data analysis and visualization, linux
+                                administration,
+                                effectively the
+                                development of web applications. Very interested in machine learning
+                                and artificial intelligence. I
+                                was one of the basic programming trainers at Polytechnics Vontovorona.
+                            </p>
+                            <div class="widget-sidebar">
+                                <p class="sidebar-title " data-aos="fade-up" style="font-size:20px">CONTACT INFORMATION
+                                </p>
+                                <div class="row">
+                                    <div class="col-lg-3" data-aos="fade-up">
+                                        <div class="about-img">
+                                            <img src="assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a"
+                                                alt="">
+                                        </div>
+                                        <br />
+                                    </div>
+                                    <div class="col-lg-5 content resume" data-aos="fade-up">
+                                        <div class="service-content">
+                                            <div class="about-info resume-item">
+                                                <p><span class="title-s"> Names : </span> <span>RASOLONIAINA
+                                                        Tantelinirina</span></p>
+                                                <p><span class="title-s"> Date of birth : </span> <span>
+                                                        <nobr> 29 Octobre 1997</nobr>
+                                                    </span></p>
+                                                <p><span class="title-s"> Phone / Whatsapp : </span> <span>
+                                                        <nobr> +261 (0) 34 43 897 49</nobr>
+                                                    </span></p>
+                                                <p><span class="title-s"> Email : </span>
+                                                    <span>ttlrasoloniaina@gmail.com</span>
+                                                </p>
+                                                <p><span class="title-s">Website : </span><span><a
+                                                            style="color:rgb(83, 83, 83)"
+                                                            href="https://tantelyras.ml">https://tantelyras.ml</a>
+                                                    </span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 content resume" data-aos="fade-up">
+                                        <div class="content">
+                                            <div class="about-info resume-item">
+                                                <p><span class="title-s"> Degree : </span> <span>
+                                                        <nobr> Master 2</nobr>
+                                                    </span></p>
+                                                <p><span class="title-s"> Address : </span> <span>IVB 65 Ambohimanala
+                                                        Andoharanofotsy</span></p>
+                                                <p><span class="title-s"> City : </span> <span>Antananarivo 102
+                                                        Madagascar</span></p>
+                                                <p><span class="title-s"> Freelance : </span> <span>Available</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="title-box-2" data-aos="fade-up">
+                            <h5 class="title-left">
+                                Key Skills
+                            </h5>
+                        </div>
+                        <div class="row">
+                            <div class="about-me col-lg-6" data-aos="fade-right">
+                                <div class="skill-mf service-content">
+                                    <span>Machine Learning</span> <span class="pull-right">58%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            role="progressbar" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span>Data Analytics and Virtualization
+                                    </span> <span class="pull-right">85%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span>Cybersecurity</span> <span class="pull-right">60%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span>Systems and Network Administration</span> <span class="pull-right">85%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-me col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                                <div class="skill-mf service-content">
+                                    <span>Web development
+                                    </span> <span class="pull-right">59%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            role="progressbar" aria-valuenow="59" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span>Database</span> <span class="pull-right">55%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span>Linux</span> <span class="pull-right">87%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span>Docker & Kubernetes</span> <span class="pull-right">79%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            role="progressbar" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End About Section -->
+        <!-- ======= Counter Section ======= -->
+        <div id="particles1-js">
+            <div class="layer1">
+            </div>
+        </div>
+
+        <div class="section-counter paralax-mf bg-image">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-lg-3" data-aos="fade-in">
+                        <div class="counter-box  pt-4 pt-md-0">
+                            <div class="counter-ico">
+                                <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
+                            </div>
+                            <div class="counter-num">
+                                <p class="counter">8</p>
+                                <span class="counter-text">WEB & MOBILE PAGES AND APPLICATIONS (Group and individual
+                                    project)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-lg-3" data-aos="fade-in">
+                        <div class="counter-box pt-4 pt-md-0">
+                            <div class="counter-ico">
+                                <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
+                            </div>
+                            <div class="counter-num">
+                                <p class="counter">2</p>
+                                <span class="counter-text">YEARS OF EXPERIENCE
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-lg-3" data-aos="fade-in">
+                        <div class="counter-box pt-4 pt-md-0">
+                            <div class="counter-ico">
+                                <span class="ico-circle"><i class="ion-ios-people"></i></span>
+                            </div>
+                            <div class="counter-num">
+                                <p class="counter">5</p>
+                                <span class="counter-text">YEARS OF TRAINING IN TELECOMMUNICATIONS
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-lg-3" data-aos="fade-in">
+                        <div class="counter-box pt-4 pt-md-0">
+                            <div class="counter-ico">
+                                <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
+                            </div>
+                            <div class="counter-num">
+                                <p class="counter">6</p>
+                                <span class="counter-text">CERTIFICATES OBTAINED</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Counter Section -->
+        <!-- ======= CV Section ======= -->
+        <section id="work" class="work-mf sect-pt4 route resume">
+            <div class="container">
+                <div class="row" data-aos="fade-up">
+                    <div class="col-sm-12">
+                        <div class="title-box  text-center">
+                            <h3 class="title-a">
+                                Resume
+                            </h3>
+                            <p class="subtitle-a">
+                                Please find below my itinerary details.
+
+                            </p>
+                            <div class="line-mf"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="box-shadow-full">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="widget-sidebar title-box-2" data-aos="fade-up">
+                                        <p class="sidebar-title">Summary</p>
+                                        <div class="resume-item pb-0">
+                                            <h5 class="subtitle-a" style="padding-bottom: 8px;
+                                            padding-top: 8px;"><strong>Tantelinirina RASOLONIAINA</strong></h5>
+                                            <p class="lead">Excellent problem-solving skills with the ability to perform
+                                                well in a team as well as work effectively in a fast-paced
+                                                environment.</p>
+                                            <ul class="list-sidebar">
+                                                <li>IVB 65 Ambohimanala Andoharanofotsy Antananarivo 102</li>
+                                                <li>+261 (0) 34 43 897 49</li>
+                                                <li>ttlrasoloniaina@gmail.com</li>
+                                                &nbsp;
+                                            </ul>
+                                        </div>
+                                        <h3 class="resume-title">Training</h3>
+                                        <div class="resume-item">
+                                            <h5 class="subtitle-a" style="padding-bottom: 8px;
+                                            padding-top: 8px;"><strong>Master 2 in Network & Systems Engineering
+                                                </strong> </h5>
+                                            <h5 class="subtitle-a">2018 - 2021</h5>
+                                            <br />
+                                            <p><em class="subtitle-a">Ecole Supérieure Polytechnique d'Antananarivo
+                                                    Vontovorona (ESPA)</em></p>
+                                            <ul class="list-sidebar">
+                                                <li><strong>Branch</strong> : Telecommunication </li>
+                                                <li><strong>Specialized</strong> : Network and systems</li>
+                                            </ul>
+                                        </div>
+                                        <div class="resume-item">
+                                            <h5 class="subtitle-a" style="padding-bottom: 8px;
+                                            padding-top: 8px;"><strong>Bachelor in Telecommunications Engineering
+                                                </strong></h5>
+                                            <div class="row">
+                                                <div class="col-sm-8">
+                                                    <h5 class="subtitle-a">2015 - 2018 (Good Mention)</h5>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <nobr> <a class="dip" href="assets/img/dipl-lic.pdf" target="_blank"><i class="ion-eye"></i>&nbsp;&nbsp;See</a></nobr>
+                                                </div>
+                                            </div>
+                                            <p><em class="subtitle-a">Ecole Supérieure Polytechnique d'Antananarivo
+                                                    Vontovorona (ESPA)</em></p>
+                                            <ul class="list-sidebar">
+                                                <li><strong>Branch</strong> : Telecommunication </li>
+                                                <!-- <li><strong>Specialized</strong> : Network and systems</li> -->
+                                            </ul>
+                                        </div>
+                                        <div class="resume-item">
+                                            <h5 class="subtitle-a" style="padding-bottom: 8px;
+                                            padding-top: 8px;"><strong>Bachelor's degree - series C
+                                                </strong></h5>
+                                            <h5 class="subtitle-a">2012 - 2015 (Good Enough Mention)</h5>
+                                            <p><em>Lycée Mandrimena Andoharanofotsy</em>
+                                            </p>
+                                        </div>
+                                        <h3 class="resume-title">Competitions</h3>
+                                        <!-- <div class="resume-item">
+                                            <h5 class="subtitle-a"><strong>Assistant and advisor of the team of the
+                                                    3rd place HACKATHON</strong></h5>
+                                            <h5 class="subtitle-a">November 2020</h5>
+                                            <p class="subtitle-a">Project to develop a system for predicting the impacts
+                                                of biodiversity consumption using big data and machine learning
+                                                for satellite image recognition.
+                                                
+                                            </p>
+                                        </div> -->
+                                        <div class="resume-item">
+                                            <h5 class="subtitle-a"><strong>Techfest 23rd edition - Technology festival
+                                                    by
+                                                    IIT BOMBAY INDE</strong></h5>
+                                            <h5>November 2019</h5>
+                                            <p><em>National Team Counselor and Guide
+                                                </em></p>
+                                            <p><strong class="subtitle-a"> Theme </strong>: «  DA VINCIAN SPECTACLE » :
+                                                combination of art, creativity and technology to create
+                                                a better world.
+                                            </p>
+                                        </div>
+                                        <h3 class="resume-title">Certificates</h3>
+                                        <div class="resume-item">
+                                            <h5 class="subtitle-a"><strong>HackerRank</strong></h5>
+                                            <h5 class="subtitle-a">June 2022</h5>
+                                            <ul class="list-sidebar">
+                                                <li> Certificate of completion of the SQL(Basic) competency assessment. 
+                                                </li>
+                                                Available : <a style="color:#0086c8"
+                                                    href="https://www.hackerrank.com/certificates/87a57422da1e"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"><strong><u>Here</u></strong>
+                                                </a>
+                                            </ul>
+
+                                            <p></p>
+                                        </div>
+                                        <div class="resume-item">
+                                            <h5 class="subtitle-a"><strong>Great Learning</strong></h5>
+                                            <h5 class="subtitle-a">April 2022</h5>
+                                            <ul class="list-sidebar">
+                                                <li>
+                                                    Certificate of completion for successfully completing a online course of Deepfake.
+                                                </li>
+                                                Available : <a style="color:#0086c8"
+                                                    href="https://olympus1.mygreatlearning.com/course_certificate/JRHJNKPJ"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"><strong><u>Here</u></strong>
+                                                </a>
+                                                <p></p>
+
+                                                <li> Certificate of completion for successfully completing a online
+                                                    course of
+                                                    Linux.
+                                                </li>
+                                                Available : <a style="color:#0086c8"
+                                                    href="https://olympus1.mygreatlearning.com/course_certificate/JOOIWNEH"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"><strong><u>Here</u></strong>
+                                                </a>
+                                            </ul>
+
+                                            <p></p>
+                                        </div>
+                                        <div class="resume-item">
+                                            <h5 class="subtitle-a"><strong>YaliNetwork</strong></h5>
+                                            <h5 class="subtitle-a">April 2022</h5>
+                                            <ul class="list-sidebar">
+                                                <li>Certificate in recognition of the successfully completion for the
+                                                    fundamentals of personal
+                                                    finance
+                                                    management.
+                                                </li>Available : <a style="color:#0086c8"
+                                                    href="assets/img/portfolio-details-2a.jpg" target="_blank"
+                                                    rel="noopener noreferrer"><strong><u>Here</u></strong>
+                                                </a>
+                                                <p></p>
+                                                <li>Certificate in recognition of the successfully completion for the
+                                                    fundamentals of Responsible Leadership for Entrepreneurs.
+                                                </li>Available : <a style="color:#0086c8"
+                                                    href="assets/img/portfolio-details-1a.jpg" target="_blank"
+                                                    rel="noopener noreferrer"><strong><u>Here</u></strong>
+                                                </a>
+                                            </ul>
+
+                                            <p></p>
+                                        </div>
+                                        <div class="resume-item">
+                                            <h5 class="subtitle-a"><strong>Linkedin Badge
+                                                </strong></h5>
+                                            <h5 class="subtitle-a">April 2022</h5>
+                                            <p>LinkedIn Skill Assessment Badge on Linux.</p>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;Available
+                                            : <a style="color:#0086c8"
+                                                href="https://www.linkedin.com/in/tantelinirina-rasoloniaina-711a7720a/"
+                                                target="_blank" rel="noopener noreferrer"><strong><u>Here</u></strong>
+                                            </a>
+                                        </div>
+                                        <h3 class="resume-title">Languages</h3>
+                                        <div class="resume-item">
+                                            <h5 class="subtitle-a"><strong>French</strong></h5>
+                                            <ul class="list-sidebar">
+                                                <li> Conversational : advanced</li>
+                                                <li>Technique : advanced</li>
+                                            </ul>
+                                        </div>
+                                        <div class="resume-item">
+                                            <h5 class="subtitle-a"><strong>English</strong></h5>
+                                            <ul class="list-sidebar">
+                                                <li> Conversational : average</li>
+                                                <li>Technique : advanced</li>
+                                            </ul>
+                                        </div>
+                                        <h3 class="resume-title">Volunteering
+                                        </h3>
+                                        <div class="resume-item">
+                                            <h5 class="subtitle-a"><strong>MMJ Association (Masoandro Miposaky
+                                                    Jerosalema)</strong></h5>
+                                            <p>Social work and mental help for primary school children.
+                                            </p>
+                                        </div>
+                                        <h4 class="resume-title">Subject for obtaining the Bachelor's degree
+
+                                        </h4>
+                                        <div class="resume-item">
+                                            <h5 class="subtitle-a"><strong>"IMPLEMENTATION OF A MESSAGING SERVICE ON
+                                                    MOBILE
+                                                    IN A WIFI ENVIRONMENT"</strong></h5>
+                                            <ul>
+                                                <p>
+                                                    <li>Local messaging system without using operator networks.
+                                                    </li>
+                                                </p>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 widget-sidebar title-box-2" data-aos="fade-up">
+                                    <p class="sidebar-title">PROFESSIONAL EXPERIENCES
+                                    </p>
+                                    <div class="resume-item">
+                                        <h5 class="subtitle-a"><strong>Platforms &amp; Systems Software Engineer at Miro
+                                                K.E SARL</strong></h5>
+                                        <h5 class="subtitle-a">Since December 2021</h5>
+                                        <p><em class="subtitle-a">Miro K.E SARL, Madagascar, 105 Ambohidratrimo</em></p>
+                                        <ul class="list-sidebar">
+                                            <li>Drafting functional specifications and contribution to the architecture
+                                                of the System.</li>
+                                            <li>Management of these platforms, automation and scripting using linux
+                                                (Debian / Ubuntu) and automatic synchronization
+                                                of backup to google drive.</li>
+                                            <li>Software solutions for setting up a VoIP server on the in-site for
+                                                telephone lines.</li>
+                                            <li> Encryption and decryption of confidential data for customer service.
+                                            </li>
+                                            <li> Creation of multiple Odoo instances in the same server: possibility to
+                                                put in one server all versions of
+                                                Odoo/Openerp 7,8,9,10,11,12,13,14,15 (Master perfectly Postgresql,
+                                                Addons, Filestore).</li>
+                                            <li> Drafting functional specifications and contribution to the architecture
+                                                of the System.</li>
+                                            <li> Installation, maintenance, management and configuration of internally
+                                                installed networks</li>
+                                            <li> Provide support to user teams both home and abroad</li>
+                                            <li> Platform management and remote management of overseas customer servers
+                                            </li>
+                                            <li> Restoration and administration of database in case of failure</li>
+                                            <li> Strong bond with the developing engineers front and back end</li>
+                                        </ul>
+                                        <p class="subtitle-a">Result : Providing solution and company evolution
+                                            particularly on motivation of co-team engineers, users and clients.</p>
+                                    </div>
+                                    <div class="resume-item">
+                                        <h5 class="subtitle-a"><strong>Web Developer &amp; QA Software Tester at
+                                                Advalorem Group</strong></h5>
+                                        <h5 class="subtitle-a">September 2021 - December 2021</h5>
+                                        <p><em class="subtitle-a">Advalorem Group, Antananarivo, Tsiadana</em></p>
+                                        <ul class="list-sidebar">
+                                            <li>Diagnosis of a platform: design, write, install and run tests
+                                                (automated,
+                                                functional, unit) that will validate the proper functioning and quality
+                                                of the software.</li>
+                                            <li>Participation in the development and maintenance of performance
+                                                testing
+                                                tools.</li>
+                                            <li>Accompaniment of the development teams in the support and the use of the
+                                                tools.
+
+                                            </li>
+                                            <li>Direct intervention with clients abroad.
+                                            </li>
+                                            <li><a style="color:#0086c8"
+                                                    href="https://www.facebook.com/groupeadvalorem/videos/316296277046145/?app=fbl"
+                                                    target="_blank" rel="noopener noreferrer">Team Presentation
+                                                    Link.
+                                                </a></li>
+
+                                        </ul>
+                                        <p class="subtitle-a">Result : Improvement &amp; Performance of Software /
+                                            Platforms functionality in the Group & Customer Satisfaction.</p>
+                                    </div>
+                                    <div class="resume-item">
+                                        <h5 class="subtitle-a"><strong>Internship Developer at Fablab
+                                                HABAKA</strong></h5>
+                                        <h5 class="subtitle-a">May 2021 - August 2021</h5>
+                                        <p><em class="subtitle-a">HABAKA Madgascar Innovation Hub, Antananarivo,
+                                                Tsimbazaza</em></p>
+                                        <ul class="list-sidebar">
+                                            <li>Study and implementation of load book
+                                            </li>
+                                            <li>Development of a web project.
+                                            </li>
+                                            <li>Incorporation of technical features according to expected needs.
+
+                                            </li>
+                                        </ul>
+                                        <p class="subtitle-a">Result : Realization of the specific objective of the
+                                            project in the organization HABAKA.</p>
+                                    </div>
+                                    <div class="resume-item">
+                                        <h5 class="subtitle-a"><strong>Alternate responsible for the management of KYC
+                                                data backups</strong></h5>
+                                        <h5 class="subtitle-a">August 2020 - December 2020</h5>
+                                        <p><em class="subtitle-a">Société Générale Madagascar, Antananarivo, 67Ha </em>
+                                        </p>
+                                        <ul class="list-sidebar">
+                                            <li>Structuring KYC Customer
+                                                Data via CBS.
+                                            </li>
+                                            <li>Database Analysis and Management of Professional Clients, Individuals,
+                                                Associations.
+                                            </li>
+                                            <li>Compilation of reporting data, Implementation of statistics containing
+                                                the daily situation of the evolution of the KYC
+                                                Remedy service.</li>
+                                        </ul>
+                                        <p class="subtitle-a">Result : 90% Optimization in File Backup Management,
+                                            Objectives Achieved in Staff Management, Better Department KYC database
+                                            mastery.</p>
+                                    </div>
+                                    <!-- <div class="resume-item">
+                                        <h5 class="subtitle-a"><strong>Développeur web chez SAFE drone delivery in Madagascar</strong></h5>
+                                        <h5 class="subtitle-a">Avril 2020</h5>
+                                        <p><em class="subtitle-a">SAFE drone startup, Antananarivo</em></p>
+                                        <ul class="list-sidebar">
+                                            <li>Mise en oeuvre de cahier des charges.</li>
+                                            <li>Développement d'un site vitrine.</li>
+                                            <li>Élaboration du plan de vente et d'exploitation du système.</li>
+                                        </ul>
+                                        <p class="subtitle-a">Résultat : Participation de la startup aux compétitions AfricaVSvirus .</p>
+                                    </div> -->
+                                    <!-- <div class="resume-item">
+                                        <h5 class="subtitle-a"><strong>Membre et formateur de base en developpement d'application Android chez STEM4GOOD</strong></h5>
+                                        <h5 class="subtitle-a">Septembre 2019 - Décembre 2019</h5>
+                                        <p><em class="subtitle-a">STEM4GOOD, Antananarivo, Akorondrano</em></p>
+                                        <ul class="list-sidebar">
+                                            <li>Immersion au développement d'application mobile des élèves.</li>
+                                            <li>Apprentissage des bases de programmation Python et Java.</li>
+                                            <li>Initiation des jeunes aux notions de base de données(firebase) et du design d'application.</li>
+                                        </ul>
+                                        <p class="subtitle-a">Résultat : Participation des jeunes au concours hackathon organisé par l'Institut Français de Madagascar.</p>
+                                    </div> -->
+                                    <!-- <div class="resume-item">
+                                        <h5 class="subtitle-a"><strong>Organisateur de l'événement Technorion (première
+                                                compétition robotique nationale)</strong></h5>
+                                        <h5 class="subtitle-a">Octobre 2019 - Novembre 2019</h5>
+                                        <p><em class="subtitle-a">STEM4GOOD, Antananarivo, Akorondrano</em></p>
+                                        <ul class="list-sidebar">
+                                            <li>Planification de l'événement.</li>
+                                            <li>Crowdfunding pour financer l'événement.</li>
+                                        </ul>
+                                        <p class="subtitle-a">Résultat : Sélection des jeunes pour représenter
+                                            Madagascar au tournoi international Techfest en Inde.</p>
+                                    </div> -->
+                                    <div class="resume-item">
+                                        <h5 class="subtitle-a"><strong>Intership KYC remediation at SG
+                                                Madagascar</strong></h5>
+                                        <h5 class="subtitle-a">October 2018 - January 2019</h5>
+                                        <p><em class="subtitle-a"> SG Madagascar, Antananarivo,
+                                                Analakely</em></p>
+                                        <ul class="list-sidebar">
+                                            <li>Structuring client data via GED (Electronic document management).
+                                            </li>
+                                            <li>Storage of files and Archiving in the platform internally.
+                                            </li>
+                                            <p class="subtitle-a">Result : Optimization of the KYC (Know Your Customer)
+                                                Remediation department.
+                                            </p>
+                                        </ul>
+                                    </div>
+                                    <div class="resume-item">
+                                        <h5 class="subtitle-a"><strong>Visit and formation for the maintenance and
+                                                management of the security of the radio interface</strong></h5>
+                                        <h5 class="subtitle-a">March 2018</h5>
+                                        <p><em class="subtitle-a">TV Plus Madagascar, Antananarivo</em></p>
+                                        <ul class="list-sidebar">
+                                            <li>Transmitter analysis, all electronic and computer materials, audio
+                                                transcripts.
+                                            </li>
+                                            <li>Installation of captive portal and authentication server.
+                                            </li>
+                                        </ul>
+                                        <p class="subtitle-a">Result : Securing the radio interface, Notion in network
+                                            optimization and monitoring.</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- ======= cv Section ======= -->
+        <!-- ======= Portfolio Section ======= -->
+        <section id="autre" class="autre-mf sect-pt4 route">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12" data-aos="fade-up">
+                        <div class="title-box text-center">
+                            <h3 class="title-a">
+                                OTHERS
+                            </h3>
+                            <p class="subtitle-a">
+                                Please see below for additional information that fits me
+
+                            </p>
+                            <div class="line-mf"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="work-box">
+                            <a href="assets/img/work-1.jpg" data-gall="portfolioGallery" class="venobox">
+                                <div class="work-img">
+                                    <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-7">
+                                        <h2 class="w-title">Certificates obtained
+                                        </h2>
+                                        <div class="w-more">
+                                            <a href="details.html"><span class="w-ctegory">Qualifications and
+                                                    Appreciations</span></a> / <span class="w-date">Year 2022</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5" style="text-align:right;">
+                                        <nobr><a class="dip" href="details.html#cert"><i
+                                                    class="ion-eye"></i>&nbsp;&nbsp;See&nbsp;&nbsp;</a></nobr>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="work-box">
+                            <a href="assets/img/work-2.png" style="width: 300px; height: 300px"
+                                data-gall="portfolioGallery" class="venobox">
+                                <div class="work-img">
+                                    <img src="assets/img/work-2.png" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-7">
+                                        <h2 class="w-title">Achievements done
+                                        </h2>
+                                        <div class="w-more">
+                                            <a href="details.html#omby"><span class="w-ctegory">Personalized page and
+                                                    application developments</span> </a>/ <span class="w-date">Since
+                                                2020</span>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="details.html#omby"> <span class="ion-ios-plus-outline"></span></a>
+                                        </div></div> -->
+                                    <div class="col-sm-5" style="text-align:right;">
+                                        <nobr><a class="dip" href="details.html#omby"><i
+                                                    class="ion-eye"></i>&nbsp;&nbsp;See&nbsp;&nbsp;</a></nobr>
+                                    </div>
+
+                                    &nbsp;
+                                    <p>&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="work-box">
+                            <a href="assets/img/work-3.jpg" data-gall="portfolioGallery" class="venobox">
+                                <div class="work-img">
+                                    <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-7">
+                                        <h2 class="w-title">
+                                            <nobr>Other thirds
+                                            </nobr>
+                                        </h2>
+                                        <div class="w-more">
+                                            <a href="details.html"><span class="w-ctegory">A few events that went
+                                                    through.</span> </a>/ <span class="w-date">Since 2015</span>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="details.html"><strong> <span class="ion-ios-plus-outline"></span></strong></a>
+                                        </div>
+                                    </div> -->
+                                    <div class="col-sm-5" style="text-align:end;">
+                                        <nobr><a class="dip" href="details.html"><i
+                                                    class="ion-eye"></i>&nbsp;&nbsp;See&nbsp;&nbsp;</a></nobr>
+                                    </div>
+                                </div>
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Autre Section -->
+        <!-- ======= Testimonials Section ======= -->
+        <!-- <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="testimonial-mf" class="owl-carousel owl-theme">
+              <div class="testimonial-box">
+                <div class="author-test"  data-aos="fade-up">
+                  <img src="assets/img/testimonial-2.jpg" alt="" height="135" width="135" class="rounded-circle b-shadow-a">
+                  <span class="author">STEPHEN HAWKING</span>
+                </div>
+                <div class="content-test"  data-aos="fade-up"  data-aos-delay="100">
+                  <p class="description lead">
+                    "L'intelligence, c'est la faculté de s'adapter au changement."
+                  </p>
+                  <span class="comit" height="3" width="3"><i class="fa fa-quote-right" height="3" width="3" ></i></span>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+        <!--End Testimonials Section -->
+        <!-- ======= Services Section ======= -->
+        <section id="service" class="blog-mf pt-5 route" data-aos="fade-up">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h3 class="title-a">
+                                Services
+                            </h3>
+                            <p class="subtitle-a">
+                                Please see below knowledge and services about me
+
+                            </p>
+                            <div class="line-mf"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-up">
+                        <div class=" service-box ">
+                            <dl class=" list-ico dl1-horizontal " data-aos="fade-right ">
+                                <dt>
+                                    <div class="service-ico " style="margin-top: 5px; ">
+                                        <span class="ico-circle "><i class="ion-code-working "></i></span>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <div class="service-content ">
+                                        <h2 class="s-title text-left ">WEB DEVELOPMENT
+                                        </h2>
+                                        <p style="color: #4e4e4e ">
+                                            Front-end development (vuejs, Bootstrap, ...) and Back-end (Php & Mysql,
+                                            Python,...) or with the use of a cms
+                                            (wordpress, materialize design, etc).
+                                            <br />
+                                            <br />
+                                            <br />
+                                            <br />
+                                            <br />
+                                        </p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 " data-aos="fade-up ">
+                        <div class="service-box ">
+                            <dl class=" list-ico dl1-horizontal " data-aos="fade-right ">
+                                <dt>
+                                    <div class="service-ico " style="margin-top: 5px; ">
+                                        <span class="ico-circle "><i class="ion-android-phone-portrait "></i></span>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <div class="service-content ">
+                                        <h2 class="s-title text-left ">LINUX SERVER
+                                        </h2>
+                                        <p class=" " style="color: #4e4e4e ">
+                                            We provide varied services like Linux Infrastructure Assessment, deployment, administration, and Consulting. Our Arts and Science of managing Linux infrastructure includes services like : 
+Linux Server Monitoring, System Administration, Backup &, Restore Services, Security Management.
+
+                                        </p>
+                                        
+                                        
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-4 " data-aos="fade-up ">
+                        <div class="service-box ">
+                            <dl class=" list-ico dl1-horizontal " data-aos="fade-right ">
+                                <dt>
+                                    <div class="service-ico " style="margin-top: 5px; ">
+                                        <span class="ico-circle "><i class="ion-android-phone-portrait "></i></span>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <div class="service-content ">
+                                        <h2 class="s-title text-left ">MOBILE APP
+                                        </h2>
+                                        <p class=" " style="color: #4e4e4e ">
+                                            Possible development with different technologies and programming languages
+                                            ​​(Java, Python, Javascript).
+
+                                        </p>
+                                        <br />
+                                        <br />
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div> -->
+                    <div class="col-lg-4 " data-aos="fade-up ">
+                        <div class="service-box ">
+                            <dl class=" list-ico dl1-horizontal " data-aos="fade-right ">
+                                <dt>
+                                    <div class="service-ico " style="margin-top: 5px; ">
+                                        <span class="ico-circle "><i class="ion-monitor "></i></span>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <div class="service-content ">
+                                        <h2 class="s-title text-left ">Cybersecurity</h2>
+                                        <p style="color: #4e4e4e ">
+                                            Identify internal risks through auditing, advanced security monitoring,
+                                            malware prevention.
+                                            &nbsp;
+                                            <br />
+                                            <br />
+                                            <br />
+                                            <br />
+                                            <br />
+                                            <br />
+                                        </p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 " data-aos="fade-up ">
+                        <div class="service-box ">
+                            <dl class=" list-ico dl1-horizontal " data-aos="fade-right ">
+                                <dt>
+                                    <div class="service-ico " style="margin-top: 5px; ">
+                                        <span class="ico-circle "><i class="ion-stats-bars "></i></span>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <div class="service-content ">
+                                        <h2 class="s-title text-left ">IMAGE PROCESSING
+
+                                        </h2>
+                                        <p class=" " style="color: #4e4e4e ">
+                                            Implementation and use of image recognition technologies, use of key graphic
+                                            design software features (Photoshop,
+                                            Illustrator, Indesign).
+                                            <br />
+                                            <br />
+                                            <br />
+                                            <br />
+                                            <br />
+                                            <br />
+                                        </p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 " data-aos="fade-up ">
+                        <div class="service-box ">
+                            <dl class=" list-ico dl1-horizontal " data-aos="fade-right ">
+                                <dt>
+                                    <div class="service-ico " style="margin-top: 5px; ">
+                                        <span class="ico-circle "><i class="ion-link "></i></span>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <div class="service-content ">
+                                        <h2 class="s-title text-left ">NETWORK AND SYSTEMS ADMINISTRATION
+                                        </h2>
+                                        <p class=" " style="color: #4e4e4e ">
+                                            Concept of setting up and management of a computer park, and security
+                                            policy, Creation of an automatic data backup
+                                            script using the Shell language under linux, Data Cryptage, Synchronization
+                                            of server backups in google drive.
+
+                                        </p>
+                                    </div>
+                                </dd>
+                            </dl>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 " data-aos="fade-up ">
+                        <div class="service-box ">
+                            <dl class=" list-ico dl1-horizontal " data-aos="fade-right ">
+                                <dt>
+                                    <div class="service-ico " style="margin-top: 5px; ">
+
+                                        <span class="ico-circle "><i class="ion-ios-cog "></i></span>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <div class="service-content ">
+                                        <h2 class="s-title text-left ">ALGORITHM & MACHINE LEARNING
+                                        </h2>
+                                        <p style="color: #4e4e4e ">
+                                            Writing a script and developing a model of prediction, classification,
+                                            regression, and computer vision. Continuous
+                                            development with different technologies (github, gitlab, docker).
+                                            <br />
+                                            <br />
+                                            <br />
+                                            <br />
+                                            
+                                        </p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- End Services Section -->
+        <!-- ======= Contact Section ======= -->
+
+        <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route ">
+            <!-- <div class="overlay-mf "></div> -->
+            <div id="particles2-js">
+                <div class="layer3">
+                </div>
+            </div>
+
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-sm-1 "></div>
+                    <!-- <div class="col-sm-10 ">
+                        <div class="contact-mf ">
+                            <div id="contact " class="box-shadow-full ">
+                                <div class="title-box-2 pt-4 pt-md-0 ">
+                                    <h5 class="title-left text-center " data-aos="fade-left ">
+                                        Contact
+                                    </h5>
+                                </div>
+                                <div class="row "> -->
+                                                        <!-- <div class="col-md-6 "> -->
+
+
+                                                        <!-- Contact page -->
+                                                        <!-- <div class="fcf-body more-info resume post-meta col-md-6 ">
+                                    <div class="fcf-form-wrap lead resume-item " data-aos="fade-right ">
+                                        <div id="fcf-form ">
+                                        <form class="fcf-form-class " data-aos="fade-right " method="post " action="contact.php ">
+
+                                            <div class="fcf-field ">
+                                            <label for="Name " class="fcf-label has-text-weight-normal "><span class="title-s ">Votre nom : </span></label>
+                                            <div class="fcf-control ">
+                                                <input type="text " name="Name " id="Name " class="fcf-input is-full-width " maxlength="60 " data-validate-field="Name ">
+                                            </div>
+                                            </div>
+                                            <div class="fcf-field ">
+                                            <label for="Email " class="fcf-label has-text-weight-normal "><span class="title-s ">Votre adresse email :</span> </label>
+                                            <div class="fcf-control ">
+                                                <input type="email " name="Email " id="Email " class="fcf-input is-full-width " maxlength="100 " data-validate-field="Email ">
+                                            </div>
+                                            </div>
+                                            <div class="fcf-field ">
+                                            <label for="Phone " class="fcf-label has-text-weight-normal "><span class="title-s ">Votre N° Tél (facultatif) :</span> </label>
+                                            <div class="fcf-control ">
+                                                <input type="text " name="Phone " id="Phone " class="fcf-input is-full-width " maxlength="30 " data-validate-field="Phone ">
+                                            </div>
+                                            </div>
+                                            <div class="fcf-field ">
+                                            <label for="Message " class="fcf-label has-text-weight-normal "><span class="title-s ">Votre message : </span></label>
+                                            <div class="fcf-control ">
+                                                <textarea name="Message " id="Message " class="fcf-textarea " maxlength="3000 " rows="5 " data-validate-field="Message "></textarea>
+                                            </div>
+                                            </div>
+                                            <div id="fcf-status " class="fcf-status "></div>
+                                            <div class="fcf-field ">
+                                            <div class="fcf-buttons ">
+                                                <button id="fcf-button " type="submit " class="fcf-button is-link is-medium is-fullwidth ">Envoyer le
+                                                message</button>
+                                            </div>
+                                            </div> -->
+                                                        <!-- You MUST retain the attribution below -->
+                                                        <!-- <div class="fcf-attribution ">Contact <a href="https://tantelyras.ml " class="fcf-attribution-link ">https://tantelyras.ml</a></div> -->
+                                                        <!-- </form> -->
+
+                                                        <!-- <div class="more-info resume post-meta ">
+                                                            <div class=" " data-aos="fade-right ">
+                                                                <div class="row">
+                                                                    <div class="col-lg-12">
+                                                                        <p class="lead " data-aos="fade-right " id="ttl" style="padding-right: 19px;
+                                                                        padding-left: 10px;">
+                                                                            Young passionate about artificial intelligence, having created
+                                                                            various web applications. I now have more than a year of
+                                                                            experience not only in the world of Telecommunications, but also
+                                                                            in the banking world, and especially in IT.
+
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <br />
+                                                                <dl class=" list-ico dl-horizontal " data-aos="fade-right ">
+                                                                    <dt>
+                                                                        <h5
+                                                                            style="font-size: 18px;font-weight: 600; padding: 5px 15px; display: inline-block; font-weight: 600; margin-bottom: 10px; background: #eef6fa; border-radius: 8.5px; ">
+                                                                            <span class="ion-ios-location "></span>Address :
+                                                                        </h5>
+                                                                    </dt>
+                                                                    <dd>
+                                                                        <h5
+                                                                            style="font-size: 16px; padding: 5px 15px; display: inline-block; font-weight: 500; margin-bottom: 10px; background: #f1f7fa; border-radius: 8.5px; ">
+                                                                            IVB 65 Ambohimanala Andoharanofotsy Antananarivo 102 Madagascar
+                                                                        </h5>
+                                                                    </dd>
+                                                                    <dt>
+                                                                        <h5 style="font-size: 18px;font-weight: 600;background: #eef6fa; padding: 5px 5px; display: inline-block; font-weight: 600; margin-bottom: 10px; background: #eef6fa; border-radius: 8.5px;
+                                            "><span class="ion-ios-telephone "></span>Phone / Whatsapp :</h5>
+                                                                    </dt>
+                                                                    <dd>
+                                                                        <h5
+                                                                            style="font-size: 16px; padding: 5px 15px; display: inline-block; font-weight: 500; margin-bottom: 10px; background: #f1f7fa; border-radius: 8.5px; ">
+                                                                            +261 (0) 34 43 897 49</h5>
+                                                                    </dd>
+                                                                    <dt>
+                                                                        <h5
+                                                                            style="font-size: 18px;font-weight: 600; padding: 5px 15px; display: inline-block; font-weight: 600; margin-bottom: 10px; background: #eef6fa; border-radius: 8.5px; ">
+                                                                            <span class="ion-email "></span>Email :
+                                                                        </h5>
+                                                                    </dt>
+                                                                    <dd>
+                                                                        <h5
+                                                                            style="font-size: 16px; padding: 5px 15px; display: inline-block; font-weight: 500; margin-bottom: 10px; background: #f1f7fa; border-radius: 8.5px; ">
+                                                                            ttlrasoloniaina@gmail.com</h5>
+                                                                    </dd>
+                                                                </dl>
+
+
+                                                            </div>
+                                                            <div class="socials text-center " data-aos="fade-left ">
+                                                                <ul>
+                                                                    <li><a href="https://www.facebook.com/profile.php?id=100006639226760 "><span
+                                                                                class="ico-circle "><i
+                                                                                    class="ion-social-facebook ion1 "></i></span></a></li>
+                                                                    <li><a href="https://www.instagram.com/tantelyrasoloniaina "><span
+                                                                                class="ico-circle"><i
+                                                                                    class="ion-social-instagram ion1 "></i></span></a></li>
+                                                                    <li><a
+                                                                            href="https://www.linkedin.com/in/tantelinirina-rasoloniaina-711a7720a "><span
+                                                                                class="ico-circle "><i
+                                                                                    class="ion-social-linkedin ion1 "></i></span></a></li>
+                                                                    <li><a href="https://join.skype.com/invite/wb80QVItvK1x "><span
+                                                                                class="ico-circle "><i
+                                                                                    class="ion-social-skype ion1 "></i></span></a></li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="text-center">
+                                                                <div data-aos="fade-right">
+                                                                    <a type=" "
+                                                                        href="https://tantelyrasoloniaina.wordpress.com">
+                                                                        <div class="butt1 ">Contact me</div>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div> -->
+
+
+                                    <div class="col-sm-10">
+                                        <div class="contact-mf">
+                                            <div id="contact" class="box-shadow-full">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                <div class="title-box-2">
+                                                    <h5 class="title-left">
+                                                    Contact me
+                                                    </h5>
+                                                </div>
+                                                <div>
+                                                    <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form"> -->
+                                                    <form name="contact" method="POST" data-netlify="true">
+                                                    <div class="row">
+                                                        <div class="col-md-12 mb-3">
+                                                        <div class="form-group">
+                                                            <input style="padding: 20px 15px;border-radius:0;" type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                                            data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                                            <div class="validate"></div>
+                                                        </div>
+                                                        </div>
+                                                        <div class="col-md-12 mb-3">
+                                                        <div class="form-group">
+                                                            <input style="padding: 20px 15px;border-radius:0;" type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                                                            data-rule="email" data-msg="Please enter a valid email" />
+                                                            <div class="validate"></div>
+                                                        </div>
+                                                        </div>
+                                                        <div class="col-md-12 mb-3">
+                                                        <div class="form-group">
+                                                            <input style="padding: 20px 15px;border-radius:0;" type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                                                            data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                                            <div class="validate"></div>
+                                                        </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <textarea style="padding: 20px 15px;border-radius:0;" class="form-control" name="message" rows="5" data-rule="required"
+                                                            data-msg="Please write something for us" placeholder="Message"></textarea>
+                                                            <div class="validate"></div>
+                                                        </div>
+                                                        </div>
+                                                        <!-- <div class="col-md-12 text-center mb-3">
+                                                        <div class="loading">Loading</div>
+                                                        <div class="error-message"></div>
+                                                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                                                        </div> -->
+                                                        <div class="col-md-12 text-center">
+                                                        <button type="submit" class="butt1">Send Message</button>
+                                                        <!-- <button type="submit" class="button button-a button-big button-rouded">Send Message</button> -->
+                                                        </div>
+                                                    </div>
+                                                    </form>
+                                                </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                <div class="title-box-2 pt-4 pt-md-0">
+                                                    <h5 class="title-left">
+                                                    Get in Touch
+                                                    </h5>
+                                                </div>
+                                                <div class="more-info">
+                                                    <p class="lead">
+                                                        Young passionate about artificial intelligence, having created
+                                                        various web applications. I now have more than a year of
+                                                        experience not only in the world of Telecommunications, but also
+                                                        in the banking world, and especially in IT.
+                                                    </p>
+                                                    <ul class="list-ico">
+                                                    <li><span class="ion-ios-location"></span> IVB 65 Ambohimanala Andoharanofotsy, Antananarivo 102 Madagascar</li>
+                                                    <li><span class="ion-ios-telephone"></span> +261 (0) 34 43 897 49</li>
+                                                    <li><span class="ion-email"></span> ttlrasoloniaina@gmail.com</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="socials">
+                                                    <ul>
+                                                        <li><a href="https://www.facebook.com/profile.php?id=100006639226760 "><span
+                                                                    class="ico-circle "><i
+                                                                        class="ion-social-facebook ion1 "></i></span></a></li>
+                                                        <li><a href="https://www.instagram.com/tantelyrasoloniaina "><span
+                                                                    class="ico-circle"><i
+                                                                        class="ion-social-instagram ion1 "></i></span></a></li>
+                                                        <li><a
+                                                                href="https://www.linkedin.com/in/tantelinirina-rasoloniaina-711a7720a "><span
+                                                                    class="ico-circle "><i
+                                                                        class="ion-social-linkedin ion1 "></i></span></a></li>
+                                                        <li><a href="https://join.skype.com/invite/wb80QVItvK1x "><span
+                                                                    class="ico-circle "><i
+                                                                        class="ion-social-skype ion1 "></i></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>                        
+                                <!-- </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+    <!-- ======= Footer ======= -->
+
+
+</body>
+<footer>
+    <div class=" container ">
+        <div class="row ">
+            <div class="col-sm-12 ">
+                <div class="copyright-box ">
+
+                    <p class=" copyright "><img src=" assets/img/ttlicon.png" rel="icon" height="25" width="25">
+                        &nbsp;&copy;
+                        <span id="s_annee"></span><a href="#">&nbsp;<span style="color:rgb(226, 220, 220) ">
+                                https://tantelyras.ml</span></a>
+                    </p>
+                    <script type="text/javascript">
+                        var today = new Date();
+                        var annee = today.getFullYear();
+                        var sannee = document.getElementById('s_annee');
+                        sannee.innerHTML = annee;
+                    </script>
+                    <div class="credits ">
+                        <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+            -->
+                        <!-- Site web personnalisé par <a href="# ">Tantelinirina Rasoloniaina</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End  Footer -->
+<a href="# " class="back-to-top "><i class="fa fa-chevron-up "></i></a>
+<!-- <div id="preloader "></div> -->
+<!-- Vendor JS Files -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+<script src="assets/vendor/counterup/jquery.counterup.min.js"></script>
+<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="assets/vendor/typed_js/typed.min.js"></script>
+<script src="assets/vendor/venobox/venobox.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+<!-- <center><font size="2 ">This is the free demo result. For a full version of this website, please go to  <a href="https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/ ">Website Downloader</a></font></center></body> -->
+
+<script src="particles.js"></script>
+<script src="Part/js/app.js"></script>
+
+<!-- stats.js -->
+<script src="Part/js/lib/stats.js"></script>
+<script type="text/javascript">
+    var count_particles, stats, update;
+    stats = new Stats;
+    stats.setMode(0);
+    stats.domElement.style.position = 'absolute';
+    stats.domElement.style.left = '0px';
+    stats.domElement.style.top = '0px';
+    document.body.appendChild(stats.domElement);
+    count_particles = document.querySelector('.js-count-particles');
+    update = function () {
+        stats.begin();
+        stats.end();
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+            count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+        }
+        requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
+</script>
+
+<script type="text/javascript">
+    $(window).scroll(function () {
+        var delay = 4000;
+        $(".progress-bar").each(function (i) {
+            $(this).delay(delay).animate({
+                width: $(this).attr('aria-valuenow') + '%'
+            }, delay);
+
+            /*$(this).prop('Counter', 0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: delay,
+                // easing: 'swing',
+                step: function(now) {
+                    $(this).text(Math.ceil(now) + '%');
+                }
+            }); */
+        });
+    });
+</script>
+<script>
+    function showmenu() {
+        $("#selector .dropdown-content").show();
+    }
+
+    $(function () {
+        var $win = $(window),
+            $box = $("#selector button"),
+            $menu = $("#selector .dropdown-content");
+
+        $win.on("click", function (event) {
+            if (!$box.is(event.target)) {
+                $menu.hide();
+            }
+        });
+    });
+</script>
+
+</html>
