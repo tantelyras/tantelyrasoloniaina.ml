@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Tantelinirina Rasoloniaina</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" media="screen" href="Part/css/style1.css">
+    <!-- =======================================================
+  * Template Name: DevFolio - v2.4.1
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+    <style>
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 40%;
+            background-position: container;
+            background-image: url('assets/img/intro-bg.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        .layer1 {
+            background-color: rgba(55, 95, 148, 0.452);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        @media screen and (max-width: 668px) {
+            .ttly {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <!-- ======= Header/ Navbar ======= -->
+    <nav class="navbar navbar-b navbar-trans navbar-expand-lg fixed-top" id="mainNav" style="min-width:460px;">
+        <div class="container">
+            <span class="ttly"><a class="navbar-brand js-scroll" href="index.html"><img class="rounded-circle"
+                        src="assets/img/ttlicon.png" rel="icon" height="35" width="35"> Tantelinirina
+                    Rasoloniaina</a></span>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+                aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span style="background-color: #fff"></span>
+                <span style="background-color: #fff"></span>
+                <span style="background-color: #fff"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="index.html#work">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="index.html#autre">Others</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="index.html#service">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <span id="langues1">
+                <div class="dropdown" id="selector">
+                    <button class="dropbtn" onclick="showmenu()">
+                        <span id="langue1">
+                            <img class="rounded-circle" src="assets/img/flag-us.png" rel="icon" height="25"
+                                width="25" />
+                            &nbsp;US
+                        </span>
+                    </button>
+                    <div class="dropdown-content" style="font-size: 14px; ">
+                        <a href="details-fr.html"><img class="rounded-circle" src="assets/img/flag-fr.png" rel="icon"
+                                height="28" width="28" /> &nbsp;FR</a>
+                        <a href="details.html"><img src="assets/img/flag-us.png" rel="icon" height="25" width="25" />
+                            &nbsp;EN</a>
+                    </div>
+                </div>
+            </span>
+        </div>
+        <span id="langues">
+            <div class="dropdown" id="selector">
+                <button class="dropbtn" onclick="showmenu()">
+                    <span id="langue1">
+                        <img class="rounded-circle" src="assets/img/flag-us.png" rel="icon" height="25" width="25" />
+                        &nbsp;EN
+                    </span>
+                </button>
+                <div class="dropdown-content" style="font-size: 14px; ">
+                    <a href="details-fr.html"><img class="rounded-circle" src="assets/img/flag-fr.png" rel="icon"
+                            height="28" width="28" /> &nbsp;FR</a>
+                    <a href="details.html"><img src="assets/img/flag-us.png" rel="icon" height="25" width="25" />
+                        &nbsp;EN</a>
+                </div>
+            </div>
+        </span>
+        <style>
+            .dropbtn {
+                background-color: #bdb9b977;
+                color: white;
+                padding: 5px;
+                font-size: 12px;
+                border: none;
+                cursor: pointer;
+                font-weight: 600;
+                box-shadow: 0px 8px 16px 0px rgba(172, 172, 172, 0.2);
+                padding-right: 15px;
+                padding-left: 15px;
+                border-radius: 30px;
+            }
+
+            .dropbtn::after {
+                content: "";
+                width: 0;
+                height: 0;
+                position: relative;
+                border-left: 5px solid transparent;
+                border-right: 5px solid transparent;
+                border-top: 5px solid #fff;
+                top: 11px;
+                left: 3px;
+            }
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #eeeeee;
+                min-width: 87px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 5px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .dropdown-content a img {
+                height: 19px;
+                width: 19px;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #0086c8;
+                color: #eeeeee;
+                border-radius: 50px;
+                padding-left: 10px;
+                margin-left: 2px;
+                margin-top: 3px;
+                margin-right: 2px;
+                margin-bottom: 3px;
+                font-weight: 600;
+                box-shadow: 0px 8px 16px 1px rgba(0, 0, 0, 0.3);
+
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .dropdown:hover .dropbtn {
+                background-color: #bdb9b977;
+                padding-right: 15px;
+                padding-left: 15px;
+
+            }
+
+            @media screen and (max-width: 839px) {
+                #langues {
+                    display: none;
+                }
+            }
+
+            @media screen and (min-width: 838px) {
+                #langues1 {
+                    display: none;
+                }
+            }
+        </style>
+
+    </nav>
+
+
+    <div id="particles-js">
+        <div class="layer1">
+        </div>
+    </div>
+    <div class="intro intro-single route bg-image ">
+
+        <div class="intro-content display-table ">
+            <div class="table-cell ">
+                <div class="container ">
+                    <h1 style="color:white "> <span class="text-slider-items ">
+                            Tantelinirina RASOLONIAINA,Network and Systems Engineer,Web Designer and Developer,
+                            QA Software Tester
+                        </span><strong class="text-slider " style="color:white "></strong></h1>
+                    <ol class="breadcrumb d-flex justify-content-center ">
+                        <li class="breadcrumb-item ">
+                            <a href="index.html ">Home</a>
+                        </li>
+                        <li class="breadcrumb-item active ">Complementary informations</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main id="main ">
+        <!-- ======= Portfolio Details Section ======= -->
+        <section class="portfolio-details ">
+            <div class="container ">
+                <div class="portfolio-details-container ">
+                    <div class="owl-carousel portfolio-details-carousel ">
+                        <!-- <img src="assets/img/portfolio-details-3.jpg " class="img-fluid " alt=" "> -->
+                        <img src="assets/img/portfolio-details-1.jpg " class="img-fluid " alt=" ">
+                        <img src="assets/img/portfolio-details-2.jpg " class="img-fluid " alt=" ">
+                        <img src="assets/img/portfolio-details-3.jpg " class="img-fluid " alt=" ">
+                        <img src="assets/img/portfolio-details-4.jpg " class="img-fluid " alt=" ">
+                        <img src="assets/img/portfolio-details-5.jpg " class="img-fluid " alt=" ">
+                    </div>
+                </div>
+                <div class="portfolio-description widget-sidebar ">
+                    <h2>Certificates</h2>
+                    <ul class="list-sidebar ">
+                        <li>Certificate in recognition of the successfully completion for the fundamentals of personal
+                            finance management. </li>
+                        <li>Certificate of completion for successfully completing a online course of Deepfake.
+                        </li>
+                        <li>Certificate of completion for successfully completing a online course of Linux.
+                        </li>
+                        <li>Certificate in recognition of the successfully completion for the fundamentals of
+                            Responsible Leadership for Entrepreneurs.
+                        </li>
+                        <li>LinkedIn Skill Assessment Badge on Linux.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- End Portfolio Details Section -->
+        <!-- ======= Portfolio Details Section ======= -->
+        <section id="realisation-details " class="portfolio-details widget-sidebar ">
+            <div class="container ">
+                <div class="portfolio-details-container ">
+                    <div class="owl-carousel portfolio-details-carousel ">
+                        <img src="assets/img/techfest_1.jpg " class="img-fluid " alt=" ">
+                        <img src="assets/img/techfest_4.jpg " class="img-fluid " alt=" ">
+                        <img src="assets/img/techfest_5.png " class="img-fluid " alt=" ">
+                    </div>
+                    <div class="portfolio-info ">
+                        <h3>More</h3>
+                        <ul class="list-sidebar ">
+                            <li><strong>Domain</strong>: Application and webpage</li>
+                            <li><strong>Date</strong>: Since 2019</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-description widget-sidebar ">
+                    <h2>Some apps and pages created
+                    </h2>
+                    <ul class="list-sidebar ">
+                        <li>Developing a local messenger application without using mobile operator networks in a Wi-Fi
+                            environment.
+                        </li>
+                        <li>Integration of an identity search platform through facial recognition.
+                        </li>
+                        <li>Remote management of overseas customer servers </li>
+                        <li>Installation of an Asterisk VoIP server in an internal site for SIP phone lines</li>
+                        <li>Implementation of a personalized website (Available for all Freelance requests).
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- End Portfolio Details Section -->
+        <!-- ======= Portfolio Details Section ======= -->
+        <section id="tiers-details " class="portfolio-details ">
+            <div class="container ">
+                <div class="portfolio-details-container ">
+                    <div class="owl-carousel portfolio-details-carousel ">
+                        <img src="assets/img/port5.jpg " class="img-fluid " alt=" ">
+                        <img src="assets/img/port2.jpg " class="img-fluid " alt=" ">
+                        <img src="assets/img/port3.jpg " class="img-fluid " alt=" ">
+                        <img src="assets/img/port1.jpg " class="img-fluid " alt=" ">
+                        <!-- <img src="assets/img/port4.jpg " class="img-fluid " alt=" "> -->
+
+                    </div>
+                </div>
+                <div class="portfolio-description widget-sidebar ">
+                    <h2>Important events
+                    </h2>
+                    <ul class="list-sidebar ">
+                        <li>Miro Knowledge Engineer</li>
+                        <li>Advalorem-Marketica-Progressio Group</li>
+                        <li>HABAKA Madagascar Innovation Hub</li>
+                        <li>Société Générale Madagascar</li>
+                        <li>Ecole supérieure Polytechnique d'Antananarivo</li>
+                        <!-- <li>Stem4Good Madagascar</li> -->
+                        <!-- <li>SAFE Drone Startup</li> -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- End Portfolio Details Section -->
+    </main>
+    <!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer>
+        <div class=" container ">
+            <div class="row ">
+                <div class="col-sm-12 ">
+                    <div class="copyright-box ">
+
+                        <p class="copyright "><img src="assets/img/ttlicon.png" rel="icon" height="25"
+                                width="25">&nbsp;&copy;
+                            <span id="s_annee"></span> <a href="# ">&nbsp;<span style="color:rgb(226, 220, 220) ">
+                                    https://tantelyras.ml</span></a>
+                        </p>
+                        <script type="text/javascript">
+                            var today = new Date();
+                            var annee = today.getFullYear();
+                            var sannee = document.getElementById('s_annee');
+                            sannee.innerHTML = annee;
+                        </script>
+                        <div class="credits ">
+                            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+            -->
+                            <!-- Site web personnalisé par <a href="# ">Tantelinirina Rasoloniaina</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End  Footer -->
+    <a href="# " class="back-to-top "><i class="fa fa-chevron-up "></i></a>
+    <!-- <div id="preloader "></div> -->
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js "></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js "></script>
+    <script src="assets/vendor/php-email-form/validate.js "></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js "></script>
+    <script src="assets/vendor/counterup/jquery.counterup.min.js "></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js "></script>
+    <script src="assets/vendor/typed_js/typed.min.js "></script>
+    <script src="assets/vendor/venobox/venobox.min.js "></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js "></script>
+
+
+</body>
+
+<script src="particles.js"></script>
+<script src="Part/js/app.js"></script>
+
+<!-- stats.js -->
+<script src="Part/js/lib/stats.js"></script>
+<script>
+    var count_particles, stats, update;
+    stats = new Stats;
+    stats.setMode(0);
+    stats.domElement.style.position = 'absolute';
+    stats.domElement.style.left = '0px';
+    stats.domElement.style.top = '0px';
+    document.body.appendChild(stats.domElement);
+    count_particles = document.querySelector('.js-count-particles');
+    update = function () {
+        stats.begin();
+        stats.end();
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+            count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+        }
+        requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
+</script>
+
+
+<script>
+    function showmenu() {
+        $("#selector .dropdown-content").show();
+    }
+
+    $(function () {
+        var $win = $(window),
+            $box = $("#selector button"),
+            $menu = $("#selector .dropdown-content");
+
+        $win.on("click", function (event) {
+            if (!$box.is(event.target)) {
+                $menu.hide();
+            }
+        });
+    });
+</script>
+
+</html>
